@@ -46,7 +46,7 @@ class ContaPoupanca(ContaBancaria):
     def calcular_juros(self, taxa):
         self.saldo += self.saldo * taxa
 
-#Teste do codigo
+
 cc = ContaCorrente(1234, "João", 1000)
 cc.sacar(1200)
 print(cc.exibir_informacoes())
