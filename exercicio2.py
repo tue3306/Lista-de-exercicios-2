@@ -14,6 +14,6 @@ class Veiculo(Motor, Pneu):
         status_pneu = Pneu.status(self)   
         return f"Status do veículo:\n{status_motor}\n{status_pneu}"
 
-# Testando o código
+
 veiculo = Veiculo()
 print(veiculo.status())
